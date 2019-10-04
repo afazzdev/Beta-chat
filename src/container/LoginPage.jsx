@@ -20,7 +20,6 @@ class LoginPage extends Component {
     e.preventDefault();
 
     console.log(this.state);
-    this.props.signIn(this.state);
   };
 
   handleChange = e => {
